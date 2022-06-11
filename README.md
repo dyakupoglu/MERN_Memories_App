@@ -1,4 +1,3 @@
-
 # MERN Memories App
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -47,12 +46,16 @@ You need to install prerequisites before running the project. Please write the f
    ```sh
    git clone https://github.com/dyakupoglu/MERN_Memories_App.git
    ```
-3. Install NPM packages (client and server side)
+3. Install NPM packages on both client and server side
 
    ```sh
    npm install
    ```
-
+4. Enter your database URL and connection port in `.env` file
+   ```js
+   PORT=
+   CONNECTION_URL=
+   ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
